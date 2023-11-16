@@ -25,7 +25,7 @@ export default function About() {
       <p className="mb-3">
         I obtained a Bachelor’s degree in{" "}
         <span className="font-medium">Computers and Information</span>,
-        Department of Bioinformatics but I am more interested in the{" "}
+        Department of Bioinformatics. but I am more interested in the{" "}
         <span className="font-medium">Software Engineering </span>industry.{" "}
         <span className="italic">My favorite part of programming</span> is the
         problem-solving aspect. I <span className="underline">love</span> the

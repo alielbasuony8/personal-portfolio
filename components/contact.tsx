@@ -26,7 +26,7 @@ export default function Contact() {
         once: true
     }}>
         <SectionHeading>Contact me</SectionHeading>
-        <p className='text-gray-700 -mt-6 dark:text-white/80'>Feel free updating by contacting me directly <a href="mailto:alielbasuony8@gmail.com" className='underline'>here</a> or through this form.</p>
+        <p className='text-gray-700 -mt-6 dark:text-white/80'>Feel free to contact me directly <a href="mailto:alielbasuony8@gmail.com" className='underline'>here</a> or through this form.</p>
         <form className='mt-10 flex flex-col dark:text-black' action={async FormData =>{
             const {data, error} = await sendEmail(FormData)
             if(error){

@@ -13,6 +13,7 @@ import manageLandingPage from '@/public/manage-landing-page.png'
 import acrylicPaintingGallery from '@/public/acrylic-painting-gallery.png'
 import exploreAgency from '@/public/explore-agency.png'
 import furnishverse from '@/public/furnishverse.png'
+import homey from '@/public/homey.png'
 
 export const links = [
   {
@@ -90,6 +91,16 @@ export const projectsData = [
     imageUrl: forkresturant,
     githubUrl:'https://github.com/alielbasuony8/Fork',
     liveUrl: 'https://alielbasuony8.github.io/Fork/'
+    
+  },
+  {
+    title: "Homey",
+    description:
+      "Homey is a full responsive real state web app. Work in both light and dark mode.",
+    tags: ["HTML", "CSS", "JS"],
+    imageUrl: homey,
+    githubUrl:'https://github.com/alielbasuony8/Homey',
+    liveUrl: 'https://alielbasuony8.github.io/Homey/'
     
   },
   {

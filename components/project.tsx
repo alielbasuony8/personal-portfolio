@@ -67,7 +67,7 @@ export default function Project({
         <div className="bg-gray-950 bg-opacity-75 fixed inset-0 z-[20000] transition flex justify-center items-center">
           <div className=" w-[calc(100%-30px)] sm:max-w-[600px] sm:w-full max-h-[90vh] flex justify-center items-center flex-col ">
             <div className=" bg-white rounded-lg dark:bg-[#111827] overflow-y-auto no-scrollbar animate-[move_0.7s_ease-in-out_1] ">
-              <header className=" border-[#ccc] border-b-[1px] px-[25px] py-[15px] flex justify-between items-center">
+              <header className=" border-[#ccc] border-b-[1px] px-[15px] py-[10px] sm:px-[25px] sm:py-[15px] flex justify-between items-center">
                 <p className="font-medium text-xl">{title}</p>
                 <IoClose
                   onClick={() => {
@@ -76,7 +76,7 @@ export default function Project({
                   className=" cursor-pointer text-2xl text-[#888] dark:text-white/80"
                 />
               </header>
-              <div className="px-[25px] py-[15px]">
+              <div className="px-[15px] py-[10px] sm:px-[25px] sm:py-[15px]">
                 <Image
                   src={imageUrl}
                   alt="Project I worked on"
