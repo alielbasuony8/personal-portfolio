@@ -17,7 +17,7 @@ export default function Project({
   tags,
   imageUrl,
   githubUrl,
-  liveUrl
+  liveUrl,
 }: projectProps) {
   const [showModal, setShowModal] = useState(false);
   const ref = useRef<HTMLDivElement>(null);
@@ -36,19 +36,25 @@ export default function Project({
         opacity: opacityProgreess,
       }}
     >
-      <section
-        className="flex items-center justify-center flex-col shadow-sm bg-gray-100 max-w-[350px] border border-black/5 overflow-hidden relative   hover:bg-gray-200 transition rounded-lg dark:bg-white/10 hover:dark:bg-white/20 hover:border hover:border-white/75"
-      >
+      <section className="flex items-center justify-center flex-col shadow-sm bg-gray-100 max-w-[350px] border border-black/5 overflow-hidden relative   hover:bg-gray-200 transition rounded-lg dark:bg-white/10 hover:dark:bg-white/20 hover:border hover:border-white/75">
         <Image
+          onClick={() => {
+            setShowModal(true);
+          }}
           src={imageUrl}
           alt="Project I worked on"
           quality={90}
-          className="max-w-full rounded-t-lg transition sm:hover:scale-[1.04] "
+          className="max-w-full rounded-t-lg transition sm:hover:scale-[1.04] cursor-pointer"
         />
         <div className="p-4 text-left sm:pr-2 sm:pt-6 w-full">
-          <h3 onClick={() => {
-          setShowModal(true);
-        }} className="text-base sm:text-2xl font-semibold cursor-pointer hover:underline ">{title}</h3>
+          <h3
+            onClick={() => {
+              setShowModal(true);
+            }}
+            className="text-base sm:text-2xl font-semibold cursor-pointer hover:underline "
+          >
+            {title}
+          </h3>
 
           <ul className=" flex flex-wrap gap-2 mt-4 sm:mt-8 justify-center">
             {tags.map((tag, index) => (
