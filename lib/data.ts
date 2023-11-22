@@ -14,6 +14,7 @@ import acrylicPaintingGallery from '@/public/acrylic-painting-gallery.png'
 import exploreAgency from '@/public/explore-agency.png'
 import furnishverse from '@/public/furnishverse.png'
 import homey from '@/public/homey.png'
+import flair from '@/public/flair.png'
 
 export const links = [
   {
@@ -74,6 +75,15 @@ export const educationData = [
 ] as const;
 
 export const projectsData = [
+  {
+    title: 'Flair',
+    description: "Flair is an agency for flights booking",
+    tags: ["React","SAAS","AOS"],
+    imageUrl: flair,
+    githubUrl:'https://github.com/alielbasuony8/Flair',
+    liveUrl: 'https://flair-agency.vercel.app/'
+    
+  },
   {
     title: 'Virtual Keyboard EN/AR',
     description: "This is a simple web application but contains alot of logic. This app is a virtual keyboard or on-screen keyboard with English and Arabic characters. The app allows the user to type text in either language using the mouse. and switch between the languages using a toggle button. The app also has some features such as shift, backspace, clear, copy, local storage to save the keyboard mode, and session storage to save the input once you focus in the input field. All that remains is to add events to arrow keys that can enhance the user experience, which I will finish later.",
