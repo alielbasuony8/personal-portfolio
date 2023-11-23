@@ -106,7 +106,7 @@ export const projectsData = [
   {
     title: "Homey",
     description:
-      "Homey is a full responsive real state web app. Work in both light and dark mode.",
+      "Homey is a full responsive real estate web app. Work in both light and dark mode.",
     tags: ["HTML", "CSS", "JS"],
     imageUrl: homey,
     githubUrl:'https://github.com/alielbasuony8/Homey',
