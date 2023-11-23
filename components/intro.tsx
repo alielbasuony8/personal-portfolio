@@ -77,7 +77,7 @@ export default function Intro() {
         </Link>
 
         <a
-          href="/Ali Elbasuony's CV.pdf"
+          href="/Ali Elbasuony CV.pdf"
           className="group bg-white px-7 py-3 flex items-center gap-2 rounded-full outline-none focus:scale-110 hover:scale-110 transition active:scale-105 cursor-pointer border border-black/10 dark:bg-white/10"
           download
         >
