@@ -45,7 +45,7 @@ export const links = [
 
 export const educationData = [
   {
-    title: "Bachelor of computers and information",
+    title: "Bachelor's of computers and information",
     description:
       "I graduated from Menoufia University with a GPA of 2.9",
     icon: React.createElement(LuGraduationCap),

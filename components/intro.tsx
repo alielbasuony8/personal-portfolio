@@ -52,7 +52,7 @@ export default function Intro() {
       >
         <span className="font-bold">Hello, I'm Ali.</span> I'm a passionate{" "}
         <span className="font-bold">Front End develpoer </span>with{" "}
-        <span className="font-bold">2 years</span> of experience. I enjoy
+        <span className="font-bold">one year</span> of experience. I enjoy
         building
         <span className="italic"> sites & apps. </span>
         Also have some exposure to backend development with{" "}
