@@ -15,6 +15,7 @@ import exploreAgency from '@/public/explore-agency.png'
 import furnishverse from '@/public/furnishverse.png'
 import homey from '@/public/homey.png'
 import flair from '@/public/flair.png'
+import clothingEcommerce from '@/public/clothing-ecommerce.png'
 
 export const links = [
   {
@@ -82,6 +83,15 @@ export const projectsData = [
     imageUrl: flair,
     githubUrl:'https://github.com/alielbasuony8/Flair',
     liveUrl: 'https://flair-agency.vercel.app/'
+    
+  },
+  {
+    title: 'Clothing Ecommerce',
+    description: "Full responsive multipage clothing ecommerce website",
+    tags: ["HTML", "CSS", "JS"],
+    imageUrl: clothingEcommerce,
+    githubUrl:'https://github.com/alielbasuony8/Clothing-Ecommerce',
+    liveUrl: 'https://alielbasuony8.github.io/Clothing-Ecommerce/'
     
   },
   {
